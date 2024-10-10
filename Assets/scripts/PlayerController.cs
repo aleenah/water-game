@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     public Sprite up, down, left, right;
     float speed = 4.0f;
+    int lives = 3;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,14 @@ public class PlayerController : MonoBehaviour
         }
         else {
             rb.velocity = Vector2.zero;
+        }
+    }
+
+    void Die() 
+    {
+        lives--;
+        if (lives == 0) {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Lose");
         }
     }
 }

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Water+_64
+  m_Name: Water+_81
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 1458216045, guid: 968f13d89505fe540ad0719efc626ae3, type: 3}
+  m_Sprite: {fileID: -2087938300, guid: 968f13d89505fe540ad0719efc626ae3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -33,4 +33,4 @@ MonoBehaviour:
     e33: 1
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
-  m_ColliderType: 0
+  m_ColliderType: 1
